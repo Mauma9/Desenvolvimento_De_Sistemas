@@ -18,6 +18,8 @@ public class MainFuncionario {
         System.out.print("Porcentagem do Desconto (0-100): ");
         f1.porcentagemDesconto = teclado.nextDouble();
 
+        teclado.close();
+
         //Processando e exibindo
         f1.imprimirContracheque();
     }
