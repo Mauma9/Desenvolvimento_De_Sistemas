@@ -71,6 +71,6 @@ public class SistemaGestaoFrota {
         teclado.close();
     }
 
-
+//agora vai
     public record Veiculo(String modelo, double valor, String tipo) { }
 }
